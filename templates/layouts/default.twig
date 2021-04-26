@@ -1,0 +1,7 @@
+{% extends 'base.twig' %}
+{% block body %}
+    {{ include('layouts/parts/header.twig') }}
+    <div class="container-fluid">
+        {% block content %}{% endblock %}
+    </div>
+{% endblock %}
